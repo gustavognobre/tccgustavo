@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+.navbar {
+    max-width: auto;
+    margin: auto;
+    margin-top: auto;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E9E9E9;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 39px 39px 0px 0px;
+}
+
+.link{
+    color: white;
+    font-weight: bold;   
+}
+
+.addtopic{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10%;
+}
+.logocontainer{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.searchbar{
+    width: 500px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
+    direction: column;
+    display: flex;
+    cursor: text;
+    padding: 10px 20px;
+    background: #DADADA;
+    border-radius: 40px;
+    align-items: center;
+}
+.tripla{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.profile_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    background-color: white;
+    padding: 5%;
+    border-radius: 100%;
+    margin-right: 3%;
+}
+.perfil{
+    margin-right: 1rem;
+}
+.profile_text1{
+    margin-right: auto;
+    color: #3D3B39;
+    font-family: Montserrat;
+    font-size: 80%;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 3px;
+}
+.profile_text2{
+    margin-right: -400%;
+    color: #3D3B39;
+    font-family: Montserrat;
+    font-size: 60%;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 3px;
+}
