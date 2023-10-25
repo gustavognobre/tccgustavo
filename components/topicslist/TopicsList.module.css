@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 .topicslist {
+    width: 320px;
+    height: 118px;
+    flex-shrink: 0;
     font-family: Montserrat;
     font-weight: bold;
     background-color: white;
@@ -11,12 +14,31 @@
     border-radius: 30px;
     flex-shrink: 0;
     gap: 5;
-    align-items:end;
+    align-items: end;
 }
-.title{
+
+.title {
     font-size: 25px;
 }
-.btn{
+
+.btn {
     display: flex;
     gap: 2;
+}
+
+.topicslistadd{
+    width: 320px;
+    height: 118px;
+    flex-shrink: 0;
+    font-family: Montserrat;
+    font-weight: bold;
+    background-color: white;
+    padding: 4%;
+    margin: 1%;
+    display: flex;
+    border-radius: 30px;
+    flex-shrink: 0;
+    gap: 5;
+    align-items: center;
+    justify-content: center;
 }
